@@ -1,0 +1,1254 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: rgba(230, 230, 230, 0.84);
+    overflow: scroll;
+}
+
+.page-content {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.body1 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-image: url('Images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    position: fixed;
+}
+
+.body2 {
+    /*    padding-top: 50px;*/
+    /*    padding-bottom: 20px;*/
+    background-image: url('Images/background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*    position:fixed;*/
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+}
+
+.body2_2 {
+    /*    padding-top: 50px;*/
+    /*    padding-bottom: 20px;*/
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*    position:fixed;*/
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    background-color: #e0e0e0;
+}
+
+.body3 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-image: url('Images/background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+}
+
+.jumbotron {
+    background-color: rgba(48, 48, 48, 0.80);
+    color: white;
+    position: fixed;
+    width: 75%;
+    top: 20px;
+}
+
+.box3 {
+    font-size: x-large;
+    padding: 10px 10px 10px 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+.foot {
+    margin-top: 450px;
+    padding: 0px 50px 0px 50px;
+    bottom: 0;
+    position: relative;
+    color: white;
+    background-color: rgba(82, 82, 82, 0.68);
+    font-size: medium;
+}
+
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+.reg {
+    background-color: rgba(47, 47, 47, 0.81);
+    color: white;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.reg1 {
+    background-color: rgba(0, 0, 0, 0.80);
+    color: white;
+    padding: 5px 5px 20px 5px;
+    margin-top: 100px;
+}
+
+.reg-container {
+    margin-left: 30%;
+}
+
+
+.btn1 {
+    background-color: #02640d;
+    color: white;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.btn1-left {
+    margin-left: 320px;
+}
+
+
+.btn1:hover {
+    background-color: #3da942;
+    color: white;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.style {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    height: 35px;
+    border-radius: 5px;
+}
+
+
+/* Set a style for all buttons */
+.box {
+    text-align: center;
+    color: white;
+    margin-left: 300px;
+    margin-top: 50px;
+    width: 500px;
+    height: 200px;
+    border: 3px solid black;
+}
+
+.box-container {
+    margin-left: 300px;
+}
+
+
+.box2 {
+    padding: 50px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 70%;
+}
+
+.button2 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+    .button2:hover {
+        opacity: 0.8;
+    }
+
+.button1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+    .button1:hover {
+        opacity: 0.8;
+        text-decoration: none;
+        color: white;
+    }
+
+#button {
+    background-color: #d51f1f;
+    color: white;
+    cursor: pointer;
+    width: 30%;
+}
+
+    #button:hover {
+        opacity: 0.8;
+    }
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+
+.login-container1 {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal1 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 400px; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+    .close :hover,
+    .close :focus {
+        color: red;
+        cursor: pointer;
+    }
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+
+.butcontainer {
+    width: 40px;
+    height: 40px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 100px;
+    z-index: 1;
+    top: 50px;
+    left: 0;
+    position: fixed;
+    overflow-x: hidden;
+    padding-top: 0;
+    display: inline-block;
+    -ms-overflow-style: none;
+    /*    scrollbar-width: none;*/
+    background-color: #3E464E;
+    border-right: 1px solid black;
+}
+
+
+    .sidenav::-webkit-scrollbar {
+        display: none;
+    }
+
+    .sidenav ul {
+        font-size: 15px;
+        list-style: none;
+        font-size: 13px;
+        width: 100px;
+        text-align: center;
+        padding: 0px;
+    }
+
+    .sidenav a {
+        text-decoration: none;
+        display: inline-block;
+        color: White;
+        white-space: nowrap;
+        overflow: auto;
+        width: 100px;
+        padding: 10px 7px 10px 0px;
+    }
+
+        .sidenav a:hover {
+            background-color: #872121;
+            width: 100px;
+        }
+
+
+
+
+ul.links {
+    list-style-type: none;
+}
+
+    ul.links li {
+        display: inline-block;
+        border-left: 1px solid black;
+        padding-left: 0px;
+    }
+
+        ul.links li:first-child {
+            border-left: 0;
+            padding-left: 0;
+            margin-left: 0;
+        }
+
+.imgsize {
+    width: 30px;
+    height: 30px;
+}
+
+.user-img {
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border: 1px solid black;
+}
+
+.top-img {
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border: 1px solid black;
+}
+
+
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+.logocontainer {
+    padding: 15px;
+    border-bottom: 3px solid #872121;
+    background-color: black;
+}
+
+.main {
+    display: inline;
+    float: left;
+    margin-left: 110px;
+    width: 1099px;
+    margin-top: 15px;
+}
+
+.container1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .container1 > .navbar-header {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 100px;
+    }
+
+.navbar-pad {
+    padding-right: 50px;
+}
+
+
+.btn-transparent {
+    background-color: transparent;
+    color: gray;
+}
+
+.buttn {
+    border: none;
+    margin-top: 8px;
+}
+
+    .buttn:hover {
+        border: none;
+        color: white;
+    }
+
+.dropdown-menu {
+    background-color: white;
+}
+
+    .dropdown-menu li a {
+        color: black;
+        font-weight: 700;
+    }
+
+        .dropdown-menu li a:hover {
+            background-color: transparent;
+            color: gray;
+        }
+
+.welcome {
+    text-align: center;
+    padding-bottom: 450px;
+}
+
+.icon {
+    height: 25px;
+    width: 25px;
+    color: #333;
+}
+
+
+.icon-flipped {
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+}
+
+.web {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.user {
+    border-radius: 10px;
+    background-color: #872121;
+    padding: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.user-container1 {
+    color: white;
+}
+
+.user-container2 {
+    background-color: white;
+}
+
+.btn-red {
+    background-color: #872121;
+    padding: 5px 10px 5px 10px;
+}
+
+    .btn-red:hover {
+        background-color: #ce2e2e;
+        color: white;
+    }
+
+.btn-edit {
+    color: white;
+}
+
+.edit {
+    color: white;
+    float: right;
+    margin-top: 1%;
+    margin-right: 2%;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    font-size: small;
+}
+
+
+
+.bot-user {
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    height: 130px;
+    min-height: 130px;
+    max-height: 130px;
+}
+
+    .bot-user p {
+        margin-left: 17%;
+    }
+
+.top-user {
+    border-top: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #6f0f0f;
+    padding: 10px;
+    height: 200px;
+    min-height: 200px;
+    max-height: 200px;
+}
+
+    .top-user p, .top-user h3 {
+        margin-left: 17%;
+    }
+
+
+.image {
+    width: 170px;
+    height: 170px;
+    background-size: cover;
+    display: block;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border: 1px solid black;
+}
+
+
+.kll {
+    font-size: x-large;
+    color: white;
+    margin-top: 8px;
+    cursor: default;
+    text-transform: uppercase;
+}
+
+.name {
+    margin-top: 120px;
+    color: white;
+    font-size: 25px;
+    font-family: Arial;
+}
+
+.role {
+    color: white;
+    background-color: #490f0f;
+    float: right;
+    margin-top: 1%;
+    margin-right: 2%;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    font-size: small;
+}
+
+#text {
+    min-width: 72%;
+    height: 200px;
+    min-height: 200px;
+    max-height: 200px;
+    padding: 10px;
+    font-size: medium;
+}
+
+.mid {
+    margin-left: 2%;
+    border-bottom: 1px solid lightgray;
+    width: 75%;
+}
+
+.mid-nav {
+    margin-left: 1%;
+    display: inline;
+    list-style: none;
+    overflow: hidden;
+}
+
+    .mid-nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .mid-nav li {
+        float: left;
+        background-color: none;
+        /* border-bottom: 1px solid gray;*/
+    }
+
+.mid-nav-a {
+    float: left;
+    display: block;
+    color: #313131;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: medium;
+    border-bottom: 3px solid transparent;
+    font-weight: 600;
+}
+
+    .active, .mid-nav-a:hover {
+        border-bottom: 3px solid #2d85b9;
+        background-color: none;
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+    }
+
+
+
+@media screen and (max-width: 768px) {
+    .none {
+        display: block;
+    }
+
+    .font {
+        font-size: medium;
+    }
+
+    .body1 {
+        position: relative;
+    }
+
+    .jumbotron {
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 10%;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .none {
+        display: none;
+    }
+}
+
+
+
+.container-main-content {
+    padding: 20px 10px 20px 20px;
+    background-color: transparent;
+    color: black;
+    border-radius: 10px;
+    text-align: left;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    margin-top: 2%;
+    width: 75%;
+    margin-left: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    .container-main-content li {
+        margin-left: 1%;
+        font-size: 18px;
+        color: #2f2f2f;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container-main-content h6 {
+        font-size: 16px;
+        font-weight: 600;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container-main-content p {
+        font-size: 18px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+.credentials-container {
+    padding: 20px 10px 20px 20px;
+    background-color: transparent;
+    color: black;
+    border-radius: 10px;
+    text-align: left;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    /*    margin-top: 7.5%;*/
+    margin-top: 2%;
+    float: right;
+    width: 22%;
+    min-width: 200px;
+    margin-left: 5%;
+    display: block;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+/*    .credentials-container {
+        display: none;
+    }*/
+
+    .container-main-content {
+        width: 100%;
+    }
+
+    .mid {
+        width: 100%;
+    }
+
+    .credential {
+        width: 100%;
+        font-size: medium;
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .credentials-container {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 780px) {
+    .credentials-container {
+        display: block;
+    }
+}
+
+
+
+@media screen and (min-width: 768px) {
+/*    .credentials-container {
+        display: block;
+    }*/
+
+    .container-main-content {
+        width: 75%;
+    }
+
+    .mid {
+        width: 75%;
+    }
+
+    .credential {
+        display: none;
+    }
+}
+
+
+.credential {
+    padding: 20px 10px 20px 20px;
+    background-color: transparent;
+    color: black;
+    border-radius: 10px;
+    text-align: left;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    margin-top: 2%;
+    margin-left: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.link {
+    color: blue;
+}
+
+    .link:hover {
+        color: #2946b6;
+    }
+
+.cog {
+    float: left;
+    color: darkgray;
+}
+
+.set {
+    color: gray;
+    text-decoration: none;
+}
+
+    .set:hover {
+        text-decoration: none;
+        color: black;
+    }
+
+.down {
+    position: relative;
+    /* display: inline-block;*/
+}
+
+.down-content {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    display: none;
+    background-color: none;
+    color: gray;
+    text-align: center;
+    border-radius: 6px;
+    padding: 0px;
+    z-index: 1;
+    min-width: 160px;
+    position: absolute;
+    margin: 180px 0px 0px 27px;
+}
+
+.down:hover .down-content {
+    display: block;
+}
+
+.credentials {
+    float: right;
+}
+
+.cred {
+    color: darkcyan;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+    .cred:hover {
+        text-decoration: none;
+        color: cyan;
+    }
+
+.a-cred:hover {
+    text-decoration: none;
+}
+
+.key {
+    color: #bdb411;
+}
+
+.modal2 {
+    display: none; /* Hidden by default */
+}
+
+.modal3 {
+    display: none; /* Hidden by default */
+}
+
+.modal4 {
+    display: none; /* Hidden by default */
+}
+
+.modals {
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modals-content-cred {
+    list-style: none;
+    font-size: large;
+    text-align: left;
+}
+
+    .modals-content-cred li {
+        padding-left: 40px;
+    }
+
+.modals-content-btn {
+    list-style: none;
+    margin-top: 50px;
+}
+
+    .modals-content-btn li {
+        display: inline;
+    }
+
+        .modals-content-btn li a {
+            /*    color: white;
+    cursor: pointer;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;*/
+        }
+
+            .modals-content-btn li a:hover {
+                color: white;
+                text-decoration: none;
+                background-color: black;
+                border-radius: 5px;
+            }
+
+.x {
+    background-color: #831515;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    margin-left: 15%;
+}
+
+
+.c {
+    background-color: #1a7039;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    margin-right: 15%;
+}
+
+
+
+.modals-container {
+    background-color: white;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 5px solid #872121;
+    width: 400px; /* Could be more or less, depending on screen size */
+}
+
+.border-20 {
+    border-radius: 20px;
+}
+
+.border-width-40 {
+    width: 40%;
+    min-width: 400px;
+}
+
+.border-width li {
+    text-align: right;
+}
+
+
+.head-cred {
+    color: black;
+    text-align: center;
+    font-size: 25px;
+}
+
+.outside-box-container {
+    background-color: #F4F4F4;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    width: 40%; /* Could be more or less, depending on screen size */
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    min-width: 400px;
+}
+
+.outside-box {
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.67); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+.inside-box {
+    background-color: #6f0f0f;
+    color: white;
+    padding: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+    .inside-box h2 {
+        font-size: large;
+        margin-left: 1%;
+    }
+
+.inside-box2 {
+    padding: 5px;
+    padding-top: 20px;
+}
+
+    .inside-box2 p {
+        font-size: medium;
+        margin-left: 5%;
+    }
+
+    .inside-box2 a {
+        font-size: medium;
+        color: #36ABC2;
+        margin-left: 1%;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+        .inside-box2 a:hover {
+            text-decoration: none;
+            color: #E52E31;
+            cursor: pointer;
+        }
+
+.icon {
+    margin-left: 2%;
+}
+
+.green {
+    color: #0e5316;
+}
+
+.blue {
+    color: #115d8a;
+}
+
+.des {
+    padding-top: 1%;
+    padding-left: 1%;
+    width: 100%;
+    height: 150px;
+    min-width: 100%;
+    min-height: 150px;
+    font-size: medium;
+}
+
+.bg872121 {
+    background-color: #872121;
+}
+
+    .bg872121:hover {
+        background-color: #9f3737;
+    }
+
+.bgred {
+    background-color: red;
+}
+
+    .bgred:hover {
+        background-color: #f63434;
+    }
+
+.bggreen {
+    background-color: green;
+}
+
+    .bggreen:hover {
+        background-color: #39ee3c;
+    }
+
+.txtwhite {
+    color: white;
+}
+
+    .txtwhite:hover {
+        color: white;
+    }
+
+.txtblack {
+    color: black;
+}
+
+    .txtblack:hover {
+        color: black;
+    }
+
+.aleft {
+    text-align: left;
+}
+
+.bgblack {
+    background-color: black;
+}
+
+    .bgblack:hover {
+        background-color: rgba(0, 0, 0, 0.57);
+    }
+
+.txt0e86a1 {
+    color: #0e86a1;
+}
+
+.tip {
+    margin-left: 200px;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid black;
+    width: 0px;
+    height: 0px;
+    z-index: 1;
+}
+
+.tip-box {
+    border-radius: 10px;
+    border: 3px solid black;
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    z-index: 1;
+    background-color: black;
+    color: white;
+}
+
+.mes1 {
+    display: none;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 30%;
+}
+
+.mes:hover .mes1 {
+    display: block;
+}
+
+.icons {
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr) );
+    gap: 1.25rem;
+}
+
+.icon1 {
+    background-color: var(--bs-light);
+    border-radius: .25rem;
+}
+
+.bi {
+    margin: .25rem;
+    font-size: 2.5rem;
+}
+
+.x-large{
+    font-size:x-large;
+}
+
+.small{
+    font-size:small;
+}
+
+.medium{
+    font-size:medium;
+}
+
+.large{
+    font-size:large;
+}
+
+.xx-large {
+    font-size: xx-large;
+}
+
+.circle {
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border: 1px solid black;
+}
+
+.navsize{
+    width:50px;
+    height:50px;
+}
+
+.fixed a{
+/*    height:100px;
+    width:100px;*/
+    padding:20px 10px 3px 5px;
+    height:80px;
+}
